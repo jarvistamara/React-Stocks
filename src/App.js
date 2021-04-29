@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import Header from './components/Header'
 import MainContainer from './containers/MainContainer'
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <div>
         <Header/>
-        <MainContainer/>
+        <MainContainer />
       </div>
     );
   }
-}
+
 
 export default App;
